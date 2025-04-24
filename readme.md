@@ -8,3 +8,8 @@ https://ep.jhu.edu/programs/mechanical-engineering/courses/#focusarea --> outlin
 --------
 https://ep.jhu.edu/programs/mechanical-engineering/masters-degree-requirements/ --> course requirements + differences b/w thesis and coursework-only programs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Semester 1: Summer 2025
+	Courses:  
+	(3) 535.641 - Mathematical Methods For Engineers 
+	
