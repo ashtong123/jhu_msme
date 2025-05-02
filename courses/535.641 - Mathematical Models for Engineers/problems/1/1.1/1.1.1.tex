@@ -1,0 +1,14 @@
+\documentclass[12pt, letterpaper]{article}
+\begin{document}
+\setlength\parindent{0pt}
+Solve the ODE by integration or by remembering a differentiation formula: 
+\[ y' + 2sin2\pi x = 0 \]
+Solution:
+This problem can be solved as a relatively straightforward integration. First, subtract $2sin2\pi x from both sides:$
+\[ y' = -2sin2\pi x \]
+\[ y = -2\int{sin2\pi x}\,dx \]
+Then, we perform a $u$ substitution where $u = 2\pi x$ and $du = 2\pi dx$:
+\[ y = \frac{-2}{2\pi}\int{sinu}\,du \]
+\[ y = \frac{2cosu}{2\pi} + C \]
+\[ y = \frac{cos2\pi x}{\pi} + C \]
+\end{document}

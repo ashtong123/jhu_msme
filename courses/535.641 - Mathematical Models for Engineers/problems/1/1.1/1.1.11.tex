@@ -1,0 +1,43 @@
+\documentclass[12pt, letterpaper]{article}
+\begin{document}
+\setlength\parindent{0pt}
+\textbf{
+1.1.11\\
+Given:
+\[ y' = y + e^x,\; y = (x + c)e^x,\; y(0) = \frac{1}{2} \]
+(a) Verify that $y$ is a solution of the ODE.\\
+(b) Determine from $y$ the particular solution of the IVP.\\
+(c) Graph the solution of the IVP.\\
+}
+
+\vspace{5mm}
+\textit{Solution to (a):}\\
+We can begin by differentiating $y$ to determine $y'$:
+\[ \frac{d}{dx}[(x + c)e^x] \]
+This derivative can be calculated using the product rule:
+\[ \frac{d}{dx}uv = u'v + uv' \]
+Where $u = x + c$ and $v = e^x$. Thus we determine $u'$ and $v'$:
+\[ \frac{d}{dx}[x + c] = 1 \]
+\[ \frac{d}{dx}[e^x] = e^x \]
+Then, we can solve for $y'$:
+\[ y' = 1*e^x + (x+c)*e^x \]
+Next, we can substitute our values of $y$ and $y'$ back into the original ODE
+and see if $y$ is a valid solution:
+\[ e^x + (x + c)e^x = (x + c)e^x + e^x \]
+It is obvious that the equation above is true, therefore $y$ is a valid solution
+to the ODE
+
+\vspace{5mm}
+\textit{Solution to (b):}\\
+We can substitute $x_0$ and $y_0$ into y and solve for $c$ to get the particular
+solution:
+\[ \frac{1}{2} = (0 + c)e^0 \] 
+\[ \frac{1}{2} = c \]
+Therefore the particular solution is:
+\[ y = (x + \frac{1}{2})e^x \]
+
+\vspace{5mm}
+\textit{Solution to (c):}\\
+The graph of the particular solution is in this folder as 1.1.11_graph.png
+
+\end{document}

@@ -1,0 +1,53 @@
+\documentclass[12pt, letterpaper]{article}
+\begin{document}
+\setlength\parindent{0pt}
+\textbf{
+1.1.13\\
+Given:
+\[ y' = y - y^2,\; y = \frac{1}{1+ce^{-x}},\; y(0) = 0.25 \]
+(a) Verify that $y$ is a solution of the ODE.\\
+(b) Determine from $y$ the particular solution of the IVP.\\
+(c) Graph the solution of the IVP.\\
+}
+
+\vspace{5mm}
+\textit{Solution to (a):}\\
+Start by differentiating $y$, which can be done using the chain rule:
+\[ \frac{d}{dx}[f(g(x))] = f'(g(x))*g'(x) \]
+In this case, $g$ is the function of x:
+\[ g(x) = 1+ce^{-x} \]
+And $f$ is therefore the function of g:
+\[ f(g(x)) = \frac{1}{g(x)} = (g(x))^{-1} \]
+First, we can calculate the derivative of f with respect to g,
+which can be solved using the power rule:
+\[ \frac{dx^n}{dx} = nx^{n-1} \]
+Thus:
+\[ \frac{df(g(x))}{dg(x)} = -1(g(x))^{-2} \]
+And, the derivative of g with respect to x, which can be solved using the chain
+rule as well:
+\[ \frac{d(g(x))}{dx} = -ce^{-x} \]
+Thus, the derivative $y'$ is:
+\[ y' = -1(1+ce^{-x})^{-2}*(-ce^{-x}) \] 
+Plugging $y$ and $y'$ into the original ODE:
+\[ -1(1+ce^{-x})^{-2}*(-ce^{-x}) = (1+ce^{-x})^{-1} - (1+ce^{-x})^{-2} \] 
+We can factor and cancel out $(1+ce^{-x})^{-2}$ from both sides of the equation:
+\[ (1+ce^{-x})^{-2}*(ce^{-x}) = (1+ce^{-x})^{-2}*((1+ce^{-x}) - 1) \]
+Leaving us with:
+\[ ce^{-x} = 1 + ce^{-x} - 1 \]
+\[ ce^{-x} = ce^{-x} \]
+The last statement confirming that $y$ is a solution to the ODE.
+
+\vspace{5mm}
+\textit{Solution to (b):}\\
+Given $y = \frac{1}{1+ce^{-x}}$:
+\[ 0.25 = \frac{1}{1+ce^{-0}} \]
+\[ 1+ce^{-0} = \frac{1}{0.25} = 1 + c = 4 \]
+\[ c = 3 \]
+Therefore, the general solution is:
+\[ y = \frac{1}{1+3e^{-x}} \]
+
+\vspace{5mm}
+\textit{Solution to (c):}\\
+
+
+\end{document}

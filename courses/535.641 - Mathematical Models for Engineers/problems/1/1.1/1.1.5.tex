@@ -1,0 +1,53 @@
+\documentclass[12pt, letterpaper]{article}
+\begin{document}
+\setlength\parindent{0pt}
+Solve the ODE by integration or by remembering a differentiation formula: 
+\[ y' = 4e^{-x}cosx \]
+Solution:
+This problem can be solved as an integration by parts. As a reminder, integration by parts
+uses the differentiation product rule:
+\[ \frac{d}{dx}[u*v] = \frac{du}{dx}v + u\frac{dv}{dx} \]
+Which can be manipulated using the fundamental theorem of calculus:
+\[ uv = \int{\frac{du}{dx}v}\,dx + \int{u\frac{dv}{dx}}\,dx \]
+Or as it is often written:
+\[ \int{u'v}\,dx = uv - \int{uv'}\,dx \] 
+The idea generally being that we can "reduce" the complexity of the equation by 
+differentiating and integrating the terms separately. This particular problem is a 
+variation of a canonical problem in integral calculus and requires an algebraic trick 
+to solve.
+In this case, we will set $y' = u'v$ where $4e^{-x} = u'$ and $cosx = v$. Thus:
+\[ \int{y'}\,dx = y = uv - \int{uv'}\,dx \]
+We know $u'$, $v$, and must find $u$ and $v'$ by integration and differentiation, 
+respectively. $u$ will be:
+\[ \int{4e^{-x}}\,dx = -4e^{-x} \]
+And then, $v'$ is:
+\[ \frac{dcosx}{dx} = -sinx \]
+Then we can write:
+\[ y = -4e^{-x}cosx - \int{-4e^{-x}*-sinx}\,dx \]
+Cleaning up a bit:
+\[ y = -4e^{-x}cosx - \int{4e^{-x}sinx}\,dx \]
+Next, we will perform a second round of integration by parts on the term: 
+\[ \int{4e^{-x}sinx}\,dx \]
+Where, similar to before, $u' = 4e^{-x}$ and $v = sinx$. And we must solve for $u$ and $v'$:
+\[ u = \int{4e^{-x}}\,dx = -4e^{-x} \]
+And:
+\[ v' = \frac{dsinx}{dx} = cosx \]
+Then:
+\[ \int{4e^{-x}sinx}\,dx = -4e^{-x}sinx - \int{-4e^{-x}cosx}\,dx \]
+From here, we go back to our earlier equation:
+\[ y = -4e^{-x}cosx - \int{4e^{-x}sinx}\,dx \]
+And we will substitute $-4e^{-x}sinx - \int{-4e^{-x}cosx}\,dx$ for $\int{4e^{-x}sinx}\,dx$:
+\[ y = -4e^{-x}cosx - (-4e^{-x}sinx - \int{-4e^{-x}cosx}\,dx) \]
+Cleaning up a bit:
+\[ y = -4e^{-x}cosx + 4e^{-x}sinx - \int{4e^{-x}cosx}\,dx \]
+Recall from the very beginning 
+\[ y' = 4e^{-x}cosx \]
+And therefore:
+\[ y = \int{4e^{-x}cosx}\,dx\]
+Notice that $y$ appears on both sides of the equation:
+\[ y = -4e^{-x}cosx + 4e^{-x}sinx - y \]
+And then we can rearrange:
+\[ 2y = -4e^{-x}cosx + 4e^{-x}sinx \]
+Finally:
+\[ y = \frac{-4e^{-x}cosx + 4e^{-x}sinx}{2} + C\]
+\end{document}

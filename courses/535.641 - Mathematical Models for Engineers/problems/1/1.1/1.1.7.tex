@@ -1,0 +1,15 @@
+\documentclass[12pt, letterpaper]{article}
+\begin{document}
+\setlength\parindent{0pt}
+Solve the ODE by integration or by remembering a differentiation formula: 
+\[ y' = cosh5.13x \]
+Solution:
+This problem can be solved as a basic integration with a $u$ substitution:
+\[ \int{y'}\,dx = \int{cosh5.13x}\,dx \]
+We can use $u = 5.13x$ and $du = 5.13dx$:
+\[ y = \frac{1}{5.13}\int{coshu}\,du \]
+Then:
+\[ y = \frac{1}{5.13}sinhu + C \]
+Replacing the $u$ term, we get our final answer:
+\[ y = \frac{sinh5.13x}{5.13} + C \]
+\end{document}
