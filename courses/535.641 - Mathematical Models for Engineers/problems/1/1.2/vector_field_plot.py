@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def first_order_ode_plot(ypr, res, domain, range):
+def first_order_ode_plot(axs, ypr, res, domain, range):
 
     nx, ny = (res, res)
     x = np.linspace(domain[0], domain[1], nx)
@@ -19,5 +19,5 @@ def first_order_ode_plot(ypr, res, domain, range):
     print(xv.shape)
     print(yv.shape)
 
-    plt.grid(True)
-    plt.quiver(xv, yv, u_norm, v_norm)
+    axs.grid(True)
+    axs.quiver(xv, yv, u_norm, v_norm)
