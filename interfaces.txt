@@ -1,0 +1,37 @@
+CAN
+STDS: 
+@CAN white paper from Bosch
+@ISO11898-2, high-speed CAN for road vehicles (signaling rate/bus length/# of nodes), 
+physical layer
+
+- twisted pair, connected at each end by resistor (~120ohm to match the characteristic impedance) 
+form the bus
+- each device connects to each wire, messages are broadcast on the bus for all to hear,
+and each device filters out messages it doesn't care about
+- the electrical interface is known as the 'physical layer' as opposed to the 'data link layer'
+which handles logic/transmission interpretation and error checking/handling
+- trade off b/w bus length and signaling rate, main limitations are cable bandwidth
+and propagation delay
+- has to have at least two devices, because each transmission requires an ACK signal from 
+another bus device
+- signals are created when devices drive a voltage difference between the two sides of 
+the bus (CAN_High/CAN_Low)
+- Connnector (eg: DB9, RJ10, RJ45, M12) should impedance match the bus line and terminators
+- CAN does not define hardware, but some extensions (eg: CANopen) do specify hardware
+- We use ITT Cannon MKJ3 series or Amphenol 803 in BA (both D38999)
+
+ETHERNET
+- RJ-45 connector
+- T568A/B wire order
+- Twisted pairs, shielded or unshielded 
+
+RS232
+- DB9/DB25 connectors
+- Limited cable length
+- Lower data rate
+
+RS422
+- Similar to 232 but with longer cable lengths and higher data rate, better noise immunity
+
+MIL-STD-1553
+- astronics equipment uses this
