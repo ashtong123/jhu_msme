@@ -1,0 +1,31 @@
+What You’ll Do
+
+    . Provide the engineering expertise to design, fabricate and integrate harnesses systems and represent the harness discipline on a project
+    . Investigate, plan, design and develop harnesses to meet various technical requirements
+    . Research, select and procure appropriate connectors, back-shells, contacts, wire, shielding, and cable construction for the product to meet appropriate environmental requirements
+    . Develop and generate harness system block diagrams and wire diagrams to release for production
+    . Participate in design reviews and provide input to identify issues and drive design choices
+    . Prepare harness assembly instructions and test procedures, incorporating your knowledge of industry standards and best practices
+    . Provide guidance to the electrical team in identifying electrical system requirements given input from internal and external stakeholders including engineering (mechanical, electrical, software), product management, quality and compliance
+    . Work in a fast-paced environment supporting new developments, active deployments, and customer operated hardware
+    . Concurrently manage involvement in multiple projects at various stages
+
+Required Qualifications
+
+    ## Bachelor’s Degree in Electrical Engineering, Mechanical Engineering, or equivalent
+    ## Chroma + Collins, semiconductor industrial + aerospace ## 3+ years hands-on experience designing electrical harnessing for rugged commercial, industrial, aerospace, or military applications
+    Experience working directly with harness manufacturers to deliver high quality, high reliability products
+    ## Notes in interfaces.txt ## Familiarity with common electrical bus interfaces (CAN, Ethernet, RS422, RS232, 1553)
+    ## List of stds and what they cover, eg:ARINC 624 Sec. 5, IPC WHMA-a-620, MIL-DTL38999, MIL-DTL-22529 (GROMMET) ## Familiar with existing applicable harness standards as well as MIL-STD requirements
+    Notes in SWaP.txt ## Able to apply knowledge of SWaP for power, network and communications systems and designs
+    Experience reading wire block interconnect diagrams and wire diagrams
+    ## Exceptional organization and communication skills (both written and oral)
+    ## Must be eligible to receive a US Security Clearance
+
+Preferred Qualifications
+
+    Build 3D routed harness data files applying NX Cabling and Siemens Capital Harness
+    Experience with or proficient in 3D CAD wire harness routing, such as (NX, CATIA, CREO)
+    Able to read and generate formboard drawings in 2D CAD for production
+
+
