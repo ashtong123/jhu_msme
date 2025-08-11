@@ -1,0 +1,32 @@
+mechanical/routing concerns
+- backshell fits in location
+- ensure enough tie points to maintain routed shape of harness
+- ensuring enough slack near connectors for connection/disconnection
+- enough clearance near connectors for hands to grasp 
+- cooling keep-out-zone requirements for electrical components
+- bend radii
+- straight section out of connectors (heat shrink/backshell can't be bent)
+- looks good in CAD, not in real-life
+- enough physical space to install cable ties
+- harness rubbing on sharp/metal parts, sheel metal edges, rivet/screw 
+heads/tails
+- ensure modeled harness matches connector drawing and connector label/callout
+
+drawing/schematic concerns
+The following are in drawing notes regarding harness performance specs
+- minimum insulation resistance
+- maximum wire resistance
+- terminating resistor specs and test conditions (current, resistance range), location
+
+
+electrical
+- we use RS485 on the astronics power supply
+- ARINC 809 (deutsch connectors for IFE system)
+- ARINC 628 - part 5 wire design and install + part 7 - cooling guidelines
+- AS/MIL-S-23190 mounting hardware
+
+problem solving
+- chroma autostacker power supply crimp repeated failure, fixed by folding over and adding
+conductor material to crimp in harness assembly instructions per IPC WHMA-A-620
+- ba 787 harness split modeled incorrectly to harness drawing, had to remodel and reorder
+harness because the one that got ordered was too long
