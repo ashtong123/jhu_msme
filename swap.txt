@@ -1,0 +1,17 @@
+SWaP - size, weight and power
+
+SIZE
+- effective routing means shorter runs and a smaller harness
+- miniaturized connectors where possible
+- smallest possible wire gauge
+- minimum shielding/sleeving required to meet environmental challenges
+
+WEIGHT
+- for the most part similar to size, although using less dense materials for connectors,
+backshells, overmolds, shielding, etc. will reduce weight where it will not reduce size. 
+
+POWER 
+- Higher voltage achieves same power with less current. Less current also allows 
+use of thinner wires, thus reducing S and W as well (Tesla 12V to 48V example). 
+
+- Sensor payloads (use fewest and lightest possible sensors
