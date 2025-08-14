@@ -1,0 +1,22 @@
+arinc 628-5
+
+connectors
+- connectors should be polarized/keyed to prevent mismates
+- connectors should provide strain relief
+- connectors should be environmentally sealed in areas where spills might occur
+- connectors should be positive latching (prefer quick release)
+
+cables
+- en3475-401 test standard requirements
+- FA 25 flam requirements
+
+wires
+- min wire gauge
+- equipment/wire designators
+- minimum bend radii
+- hidden from passenger view
+- no spare wires
+- splicing guidelines (refer to AS50881)
+- bundling
+- bundle separation
+- bundling to seat beams
